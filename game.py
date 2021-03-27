@@ -23,7 +23,7 @@ while running:
     if user_typing == letter_jumble:
         GenerateLetters()
         score += 1
-        print("correct")
+        print("correct. Your score is " + score)
     elif user_typing != letter_jumble:
         print("looks like you lost!")
         running = False
