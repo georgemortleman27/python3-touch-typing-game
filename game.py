@@ -27,6 +27,6 @@ while running:
     elif user_typing != letter_jumble:
         print("looks like you lost!")
         running = False
-    if score == 10:
+    if score == 100:
         print("Well done. You finsihed the game and won! Carry on like this and you will be a touch typer")
         running = False
