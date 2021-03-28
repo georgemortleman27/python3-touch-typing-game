@@ -16,6 +16,7 @@ while running:
     print(character_for_user_to_type)
     user_typing = input("Type what you see on the screen: ")
     if user_typing == character_for_user_to_type:
+        score += 1
         char1 = random.choice(list_of_characters)
         char2 = random.choice(list_of_characters)
         char3 = random.choice(list_of_characters)
