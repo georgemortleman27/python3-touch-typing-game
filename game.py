@@ -3,7 +3,7 @@ import time
 import string
 starting_time = time.time()
 running = True
-list_of_characters = string.ascii_lowercase + string.digits
+list_of_characters = string.ascii_lowercase + string.digits + string.punctuation
 score = 0
 char1 = random.choice(list_of_characters)
 char2 = random.choice(list_of_characters)
